@@ -124,7 +124,7 @@ while [ "$*" != "" ]; do
   shift
 done
 
-# Show some variable when in DEBUG mode
+# Show some variable when in DEBUG Mode 
 if [ "$DEBUG" != '' ]; then
   echo Launch environment
   echo ------------------
